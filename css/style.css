@@ -1,0 +1,51 @@
+*{
+    position: relative;
+}
+
+#triangulo{
+    width: 230px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+input::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+
+input{
+    width: 40px;
+}
+#cInput{
+    left: 490px;
+    top: -100px;
+}
+#bInput{
+    left: 635px;
+    top: 25px;
+}
+#button{
+    width: 70px;
+    left: 435px;
+    top: 25px;
+}
+#resultado{
+    width: 40px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-family: sans-serif;
+    left:640px;
+    bottom:100px;
+}
+#heading{
+    color: white;
+    text-align: center;
+}
